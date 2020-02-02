@@ -15,15 +15,13 @@ body {font-size:20px; background-color: #272727}
 .index{display: block;font-size: 1.3em;margin-left: 12.5%;padding-top:30px;
 	font-family:'Sitka Small'}
 
-.menu {font-size: 1.3em;background-color:#5B5B5B;
-	width: 75%;margin: 20px auto;}
+.menu {font-size: 1.3em;background-color:#3C3C3C;width: 75%;margin: 20px auto;}
+.menu li {float: left;width: 24.82%;border-right: 2px solid #272727}
+.menu a {display: block;width:100%;text-align: center;color: white;border-bottom: 3px solid #272727}
+.menu li a:hover,.menu li a.current{border-color:#161616;background-color: #5B5B5B;}
 
-.menu li {float: left;width: 25%;}
-
-.menu a {display: block;text-align: center;color: white;}
-
-.menu,.content a:hover{color: #000;text-decoration:underline}
-.menu,.content a:active{color: #000;text-decoration:underline}
+.content a:hover{color: #000;text-decoration:underline}
+..content a:active{color: #000;text-decoration:underline}
 
 .content{color: white;width: 75%;margin: 0 auto;
 		height: 390px;font-size: 1.2em;
