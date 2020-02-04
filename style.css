@@ -43,9 +43,8 @@ border-color:#FF8040}
 
 .publications{text-align:justify;}
 
-.sibcb img{display: block;width: 100%;height: 
-	125px;}
-.sibcb{padding-top: 60px;}
+.sibcb img{display: block;width: 100%;height: 125px;}
+.sibcb a{padding-top: 60px;}
 
 .author{font-weight:bold}
 
