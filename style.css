@@ -15,8 +15,8 @@ body {font-size:20px;
 
 .index:hover{color: #33CCCC}
 .index{display: block;width:100%;font-size: 1.3;font-family:'Sitka Small';margin:20px 0;}
-/*.index:visited{color: #33FFFF}
-.index:active{color: #33FFFF}*/
+.index:visited{color: #33FFFF}
+.index:active{color: #33FFFF}
 
 .menu {font-size: 1.3em;margin: 20px auto;}
 .menu li {float: left;width: 24.82%}
