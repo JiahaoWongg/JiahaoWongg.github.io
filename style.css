@@ -27,7 +27,7 @@ background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47
 border-color:#FF8040}
 
 .content a:hover,.content a:active{color: #FF8C00;text-decoration:underline}
-.content{color: white;height: 55%;font-size: 1.2em;
+.content{color: white;height: 53%;font-size: 1.2em;
 		font-family:'Sitka Small';
 		}	
 .content a{color: #FF8C00;font-weight: bold;}
