@@ -11,7 +11,7 @@ body {font-size:125%;
 /*fix height clearfix*/
 .clearfix:after{content: "";display: block;clear: both;}
 
-.master{margin:0 auto;width: 1200px;height: 750px;}
+.master{margin:0 auto;width: 1000px;height: 750px;}
 
 .index{color: #FF69B4;display: block;width: 295px;font-size: 1.1em;font-family:'Sitka Small';margin:12px 0;}
 /*.index a:visited{color: #2894FF}*/
