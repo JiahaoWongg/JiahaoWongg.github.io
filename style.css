@@ -14,7 +14,7 @@ body {font-size:20px;
 .master{width: 75%;height: 100%;margin: 0 12.5%}
 
 .index:hover{color: #33CCCC}
-.index{display: block;font-size: 1.3;font-family:'Sitka Small';margin:20px 0;}
+.index{display: block;width:100%;font-size: 1.3;font-family:'Sitka Small';margin:20px 0;}
 /*.index:visited{color: #33FFFF}
 .index:active{color: #33FFFF}*/
 
