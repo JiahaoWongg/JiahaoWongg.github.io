@@ -11,9 +11,9 @@ body {font-size:125%;
 /*fix height clearfix*/
 .clearfix:after{content: "";display: block;clear: both;}
 
-.master{margin:0 auto;width: 1000px;height: 750px;}
+.master{margin:0 auto;width: 980px;height: 750px;}
 
-.index{color: #FF69B4;display: block;width: 295px;font-size: 1.1em;font-family:'Sitka Small';margin:12px 0;}
+.index{color: #FF69B4;display: block;width: 295px;font-size: 1.1em;font-family:'Sitka Small';margin:12px 0 12px 80px;}
 /*.index a:visited{color: #2894FF}*/
 .index a:visited{color: #FF69B4}
 .index a:hover{color: #33CCCC}
@@ -33,7 +33,7 @@ border-color:#FF8040}
 .content a{color: #FF8C00;font-weight: bold;}
 .content ul:not(.publications){line-height: 4em}
 
-.Wellcome {font-size: 45px;margin-top: 20px;margin-bottom: 10px;
+.Wellcome {font-size: 45px;margin:20px 0 10px 35px;
 			color: white;}
 
 .home{text-align: justify;width: 85%;font-family:'Sitka Small';line-height: 1.5em;
