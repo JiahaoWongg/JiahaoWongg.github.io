@@ -19,7 +19,7 @@ body {font-size:20px;
 .index:active{color: #33FFFF}*/
 
 .menu {font-size: 1.3em;margin: 20px auto;}
-.menu li {float: left;width: 24.82%;border-right: 2px solid #fff}
+.menu li {float: left;width: 24.82%}
 .menu a {display: block;width:100%;text-align: center;
 	color: white;border-bottom: 3px solid skyblue;
 background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);}
