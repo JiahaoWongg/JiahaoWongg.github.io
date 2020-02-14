@@ -27,21 +27,21 @@ background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47
 border-color:#FF8040}
 
 .content a:hover,.content a:active{color: #FF8C00;text-decoration:underline}
-.content{color: white;height: 53%;font-size: 1.2em;
+.content{color: white;height: 450px;font-size: 1.2em;
 		font-family:'Sitka Small';
-		}	
+		border: 2px solid red}	
 .content a{color: #FF8C00;font-weight: bold;}
 .content ul:not(.publications){line-height: 4em}
 
-.Wellcome {font-size: 45px;margin:20px 0 10px 35px;
+.Wellcome {font-size: 45px;padding: 10px 0px 0px 35px;
 			color: white;}
 
 .home{text-align: justify;width: 85%;font-family:'Sitka Small';line-height: 1.5em;
-	margin: auto; font-size: 1.05em;}
+	margin: auto; font-size: 1.1em;}
 
 .publications{text-align:justify;}
 
-.sibcb img{margin: 45px 0; width: 100%;}
+.sibcb img{padding: 15px 0; width: 100%;border: 2px solid green;}
 
 .author{font-weight:bold}
 
