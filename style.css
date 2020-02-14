@@ -28,8 +28,7 @@ border-color:#FF8040}
 
 .content a:hover,.content a:active{color: #FF8C00;text-decoration:underline}
 .content{color: white;height: 450px;font-size: 1.2em;
-		font-family:'Sitka Small';
-		border: 2px solid red}	
+		font-family:'Sitka Small';}	
 .content a{color: #FF8C00;font-weight: bold;}
 .content ul:not(.publications){line-height: 4em}
 
@@ -41,7 +40,7 @@ border-color:#FF8040}
 
 .publications{text-align:justify;}
 
-.sibcb img{padding: 15px 0; width: 100%;border: 2px solid green;}
+.sibcb img{padding: 25px 0; width: 100%;border}
 
 .author{font-weight:bold}
 
