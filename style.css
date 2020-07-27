@@ -12,7 +12,7 @@ body {font-size:20px; background-color: #272727}
 
 .index:visited{color: white}
 .index:hover{color: #333}
-.index{display: block;font-size: 1.3em;margin-left: 12.5%;padding-top:30px;
+.index{display: block;font-size: 1.3em;margin-left: 12.5%;margin-right: 64.5%;padding-top:30px;
 	font-family:'Sitka Small'; color: white}
 
 .menu {font-size: 1.3em;background-color:#3C3C3C;width: 75%;margin: 20px auto;}
