@@ -5,43 +5,39 @@ ul{list-style:none;}
 
 /* General styles */
 a{text-decoration: none;}
-body {font-size:125%;
-	background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);}
+body {font-size:20px; background-color: #272727}
 
 /*fix height clearfix*/
 .clearfix:after{content: "";display: block;clear: both;}
 
-.master{margin:0 auto;width: 980px;height: 750px;}
+.index:visited{color: #111}
+.index:hover{color: #333}
+.index{display: block;font-size: 1.3em;margin-left: 12.5%;padding-top:30px;
+	font-family:'Sitka Small'}
 
-.index{color: #FF69B4;display: block;width: 295px;font-size: 1.1em;font-family:'Sitka Small';margin:12px 0 12px 80px;}
-/*.index a:visited{color: #2894FF}*/
-.index a:visited{color: #FF69B4}
-.index a:hover{color: #33CCCC}
+.menu {font-size: 1.3em;background-color:#3C3C3C;width: 75%;margin: 20px auto;}
+.menu li {float: left;width: 24.82%;border-right: 2px solid #272727}
+.menu a {display: block;width:100%;text-align: center;color: white;border-bottom: 3px solid #272727}
+.menu li a:hover,.menu li a.current{border-color:#161616;background-color: #5B5B5B;}
 
-.menu {font-size: 1.3em;margin: 5px 0;}
-.menu li {float: left;width: 25%;}
-.menu a {display: block;width:100%;text-align: center;
-	color: white;border-bottom: 3px solid #46A3FF;
-background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);}
-.menu li a:hover,.menu li a.current{background-image: radial-gradient(circle 248px at center, #FF95CA 0%, #FF0080 100%);
-border-color:#FF8040}
+.content a:hover{color: #000;text-decoration:underline}
+..content a:active{color: #000;text-decoration:underline}
 
-.content a:hover,.content a:active{color: #FF8C00;text-decoration:underline}
-.content{color: white;height: 450px;font-size: 1.2em;
-		font-family:'Sitka Small';}	
-.content a{color: #FF8C00;font-weight: bold;}
+.content{color: white;width: 75%;margin: 0 auto;
+		height: 390px;font-size: 1.2em;
+		font-family:'Sitka Small'}
+.content a{color: #111;font-weight: bold;}
 .content ul:not(.publications){line-height: 4em}
 
-.Wellcome {font-size: 45px;padding: 10px 0px 0px 35px;
-			color: white;}
+.Wellcome {font-size: 45px;margin-top: 20px;margin-bottom: 10px;
+			color: white}
 
-.home{text-align: justify;width: 85%;font-family:'Sitka Small';line-height: 1.5em;
-	margin: auto; font-size: 1.1em;}
+.home{text-align: justify;width: 90%;font-family:'Sitka Small';line-height: 1.5em;
+	margin: 28px auto; font-size: 1.1em;color:#fff;}
 
 .publications{text-align:justify;}
 
-.sibcb img{padding: 25px 0; width: 100%;border}
+.sibcb {display: block;padding-left: 12.5%;padding-top: 33px}
 
 .author{font-weight:bold}
 
-.contact{font-size: 1.2em}
