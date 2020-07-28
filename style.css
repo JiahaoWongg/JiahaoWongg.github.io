@@ -5,39 +5,38 @@ ul{list-style:none;}
 
 /* General styles */
 a{text-decoration: none;}
-body {font-size:20px; background-color: #272727}
+body {font-size:20px; background-color: #272727;display: block;margin: auto auto;
+	width:1260px;}
 
 /*fix height clearfix*/
 .clearfix:after{content: "";display: block;clear: both;}
 
 .index:visited{color: white}
 .index:hover{color: #333}
-.index{display: block;font-size: 1.3em;margin-left: 12.5%;margin-right: 64.5%;padding-top:30px;
+.index{display: block;font-size: 1.3em;margin-right: 64.5%;padding-top:33px;
 	font-family:'Sitka Small'; color: white}
 
-.menu {font-size: 1.3em;background-color:#3C3C3C;width: 75%;margin: 20px auto;}
-.menu li {float: left;width: 24.82%;border-right: 2px solid #272727}
-.menu a {display: block;width:100%;text-align: center;color: white;border-bottom: 3px solid #272727}
+.menu {font-size: 1.3em;background-color:#3C3C3C;margin: 20px auto;}
+.menu li {float: left;width: 24.83%;border-right: 2px solid #272727}
+.menu a {display: block;width:100%;text-align: center;color: white;border-bottom: 3px solid #808080}
 .menu li a:hover,.menu li a.current{border-color:#161616;background-color: #5B5B5B}
 
 .content a:hover{color: #000;text-decoration:underline}
 .content a:active{color: #000;text-decoration:underline}
 
-.content{color: white;width: 75%;margin: 0 auto;
-		height: 390px;font-size: 1.2em;
-		font-family:'Sitka Small'}
+.content{color: white;margin: 0 auto;height: 360px;font-size: 1.2em;font-family:'Sitka Small'}
 .content a{color: #111;font-weight: bold;text-decoration:underline}
 .content ul:not(.publications){line-height: 4em}
 
-.Wellcome {font-size: 40px;margin-top: 20px;margin-bottom: 10px;
+.Wellcome {font-size: 40px;margin-top: 0px;margin-bottom: 10px;
 			color: 000}
 
 .home{text-align: justify;width: 90%;font-family:'Sitka Small';line-height: 1.5em;
-	margin: 16px auto; font-size: 1.05em;color:#fff;}
+	margin: 10px auto; font-size: 1.05em;color:#fff;}
 
 .publications{text-align:justify;}
 
-.sibcb {display: block;padding-left: 12.5%;padding-top: 33px}
+.sibcb {display: block;padding-top: 30px}
 
 .author{font-weight:bold}
 
