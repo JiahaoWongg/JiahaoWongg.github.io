@@ -5,15 +5,15 @@ ul{list-style:none;}
 
 /* General styles */
 a{text-decoration: none;}
-body {font-size:20px; background-color: #272727;display: block;margin: auto auto;
+body {font-size:20px; background-image: linear-gradient(#212121, #787878);display: block;margin: auto auto;
 	width:1260px;}
 
 /*fix height clearfix*/
 .clearfix:after{content: "";display: block;clear: both;}
 
 .index:visited{color: white}
-.index:hover{color: #333}
-.index{display: block;font-size: 1.3em;margin-right: 64.5%;padding-top:33px;
+.index:hover{color: #A4A4A4}
+.index{display: block;font-size: 1.3em;margin-right: 72%;padding-top:33px;
 	font-family:'Sitka Small'; color: white}
 
 .menu {font-size: 1.3em;background-color:#3C3C3C;margin: 20px auto;}
@@ -21,11 +21,11 @@ body {font-size:20px; background-color: #272727;display: block;margin: auto auto
 .menu a {display: block;width:100%;text-align: center;color: white;border-bottom: 3px solid #808080}
 .menu li a:hover,.menu li a.current{border-color:#161616;background-color: #5B5B5B}
 
-.content a:hover{color: #000;text-decoration:underline}
-.content a:active{color: #000;text-decoration:underline}
+.content a:hover{color: #000;font-weight: bold;text-decoration:underline}
+.content a:active{color: #000;font-weight: bold;}
 
 .content{color: white;margin: 0 auto;height: 360px;font-size: 1.2em;font-family:'Sitka Small'}
-.content a{color: #111;font-weight: bold;text-decoration:underline}
+.content a{color: #111;text-decoration:underline}
 .content ul:not(.publications){line-height: 4em}
 
 .Wellcome {font-size: 40px;margin-top: 0px;margin-bottom: 10px;
@@ -42,4 +42,4 @@ body {font-size:20px; background-color: #272727;display: block;margin: auto auto
 
 .contact a {color: white;text-decoration:underline; font-weight:normal}
 .contact a:visited {color: white;text-decoration:underline}
-.contact a:hover{color: black;text-decoration:underline}
+.contact a:hover{color: white;text-decoration:underline;font-weight: bold;}
