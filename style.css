@@ -23,17 +23,17 @@ body {font-size:20px; background-color: #272727}
 .content a:hover{color: #000;text-decoration:underline}
 .content a:active{color: #000;text-decoration:underline}
 
-.content:not(.mail){color: white;width: 75%;margin: 0 auto;
+.content{color: white;width: 75%;margin: 0 auto;
 		height: 390px;font-size: 1.2em;
 		font-family:'Sitka Small'}
-.content a:not(.mail){color: #111;font-weight: bold;text-decoration:underline}
+.content a{color: #111;font-weight: bold;text-decoration:underline}
 .content ul:not(.publications){line-height: 4em}
 
-.Wellcome {font-size: 45px;margin-top: 20px;margin-bottom: 10px;
+.Wellcome {font-size: 40px;margin-top: 20px;margin-bottom: 10px;
 			color: 000}
 
 .home{text-align: justify;width: 90%;font-family:'Sitka Small';line-height: 1.5em;
-	margin: 28px auto; font-size: 1.1em;color:#fff;}
+	margin: 16px auto; font-size: 1.05em;color:#fff;}
 
 .publications{text-align:justify;}
 
@@ -41,5 +41,6 @@ body {font-size:20px; background-color: #272727}
 
 .author{font-weight:bold}
 
-.mail{color: white;text-decoration:underline}
-.mail:hover:after{text-decoration:underline}
+.contact a {color: white;text-decoration:underline; font-weight:normal}
+.contact a:visited {color: white;text-decoration:underline}
+.contact a:hover{color: black;text-decoration:underline}
